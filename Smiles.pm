@@ -1,6 +1,6 @@
 package Chemistry::Smiles;
 
-$VERSION = "0.10";
+$VERSION = "0.11";
 use 5.006001;
 use strict;
 use warnings;
@@ -196,9 +196,7 @@ be a number, a string, or an object).
 # Default add_atom callback 
 sub add_atom {
     my ($mol, $iso, $sym, $chir, $hcount, $chg) = @_;
-    my $atom = Chemistry::Atom->new(symbol=>$sym);
-    $mol->add_atom($atom);
-    $atom;
+    $mol->new_atom(symbol=>$sym);
 }
 
 =item add_bond($mol, $type, $a1, $a2)
@@ -208,12 +206,14 @@ is the state object given to $obj->parse(). The other parameters are the bond
 type and the two atoms that need to be bonded. The atoms are identified using
 the return values from the add_atom() callback.
 
+=back
+
 =cut
 
 # Default add_bond callback 
 sub add_bond {
     my ($mol, $type, $a1, $a2) = @_;
-    $mol->add_bond(Chemistry::Bond->new(type=>$type, atoms=>[$a1, $a2]));
+    $mol->new_bond(type=>$type, atoms=>[$a1, $a2]);
 }
 
 sub start_branch {

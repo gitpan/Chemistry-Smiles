@@ -1,4 +1,4 @@
-Chemistry/Smiles version 0.10
+Chemistry/Smiles version 0.11
 =============================
 
 This object-oriented module parses a SMILES (Simplified Molecular Input Line
@@ -30,8 +30,6 @@ This module is designed to work with Chemistry::Mol (coming soon), but it does
 not require it.
 
 COPYRIGHT AND LICENCE
-
-Put the correct copyright and licence information here.
 
 Copyright (C) 2003 Ivan Tubert
 
