@@ -1,0 +1,8 @@
+Revision history for Perl extension Chemistry::Smiles.
+
+0.01  Fri Sep  5 14:20:37 2003
+	- original version; created by h2xs 1.22 with options
+		-AXb5.6.1 Chemistry::Smiles
+
+0.10  Fri Sep 6 2003
+	- first release
