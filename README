@@ -1,19 +1,7 @@
-Chemistry/Smiles version 0.11
+Chemistry/Smiles version 0.12
 =============================
 
-This object-oriented module parses a SMILES (Simplified Molecular Input Line
-Entry Specification) string. It can either return the molecule as a Chemistry::Mol
-object or be used via callback functions.
-
-For more information about SMILES, see The SMILES Home Page at
-http://www.daylight.com/dayhtml/smiles/
-
-This module is under development and doesn't implement the full SMILES syntax
-yet.
-
-Missing features:
-* Branches that start before an atom (such as (OC)C, which should be 
-  equivalent to C(CO) and COC).
+This module is deprecated. Use Chemistry::File::SMILES instead.
 
 INSTALLATION
 
@@ -31,7 +19,7 @@ not require it.
 
 COPYRIGHT AND LICENCE
 
-Copyright (C) 2003 Ivan Tubert
+Copyright (C) 2004 Ivan Tubert
 
 This library is free software; you can redistribute it and/or modify
 it under the same terms as Perl itself. 

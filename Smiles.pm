@@ -1,6 +1,6 @@
 package Chemistry::Smiles;
 
-$VERSION = "0.11";
+$VERSION = "0.12";
 use 5.006001;
 use strict;
 use warnings;
@@ -246,7 +246,7 @@ Ivan Tubert E<lt>itub@cpan.orgE<gt>
 
 =head1 COPYRIGHT
 
-Copyright (c) 2003 Ivan Tubert. All rights reserved. This program is free
+Copyright (c) 2004 Ivan Tubert. All rights reserved. This program is free
 software; you can redistribute it and/or modify it under the same terms as
 Perl itself.
 
