@@ -1,4 +1,4 @@
-Chemistry/Smiles version 0.12
+Chemistry/Smiles version 0.13
 =============================
 
 This module is deprecated. Use Chemistry::File::SMILES instead.

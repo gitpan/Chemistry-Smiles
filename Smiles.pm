@@ -1,13 +1,13 @@
 package Chemistry::Smiles;
 
-$VERSION = "0.12";
+$VERSION = "0.13";
 use 5.006001;
 use strict;
 use warnings;
 
 =head1 NAME
 
-Chemistry::Smiles - SMILES parser
+Chemistry::Smiles - SMILES parser (deprecated)
 
 =head1 SYNOPSYS
 
@@ -31,6 +31,8 @@ Chemistry::Smiles - SMILES parser
     $callback_parser->parse($s, 'mol');
 
 =head1 DESCRIPTION
+
+NOTE: THIS MODULE IS DEPRECATED! Use Chemistry::File::SMILES instead.
 
 This object-oriented module parses a SMILES (Simplified Molecular Input Line
 Entry Specification) string. It can either return the molecule as a Chemistry::Mol
